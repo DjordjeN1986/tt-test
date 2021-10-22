@@ -1,0 +1,39 @@
+.curr-wrapper {
+  width: 750px;
+  margin: auto;
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+
+  table {
+    border: 1px solid black;
+    padding: 20px;
+  }
+
+  th {
+    margin: 10px;
+  }
+
+  td,
+  tr {
+    border: 1px solid black;
+    padding: 10px;
+  }
+}
+
+.fav-add {
+  margin-top: 10px;
+  cursor: pointer;
+  margin-right: 20px;
+  margin-left: auto;
+  background: #f1356d;
+  font-size: 20px;
+  padding: 10px;
+  border: 0;
+  border-radius: 5px;
+  color: white;
+
+  &:hover {
+    background-color: #831133;
+  }
+}

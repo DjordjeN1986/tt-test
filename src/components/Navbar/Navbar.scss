@@ -1,0 +1,49 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  width: auto;
+  padding: 10px;
+  height: auto;
+  background: #f2f2f2;
+  border-bottom: 1px solid black;
+
+  .nav-link {
+    padding: 10px;
+    margin-left: 20px;
+    font-size: 20px;
+    text-decoration: none;
+    cursor: pointer;
+
+    &:visited {
+      text-decoration: none;
+      color: black;
+    }
+
+    &:hover {
+      color: white;
+      background-color: #f1356d;
+      border-radius: 5px;
+    }
+    &:active {
+      color: white;
+      background-color: #f1356d;
+      border-radius: 5px;
+    }
+  }
+
+  .action-button {
+    cursor: pointer;
+    margin-right: 20px;
+    margin-left: auto;
+    background: #f1356d;
+    font-size: 20px;
+    padding: 10px;
+    border: 0;
+    border-radius: 5px;
+    color: white;
+
+    &:disabled {
+      cursor: default;
+    }
+  }
+}
