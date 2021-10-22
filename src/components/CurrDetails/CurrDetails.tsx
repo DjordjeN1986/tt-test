@@ -35,7 +35,8 @@ const CurrDetails = () => {
 
   useEffect(() => {
     fetchDetails();
-  });
+    // eslint-disable-next-line
+  }, []);
 
   return (
     <>
