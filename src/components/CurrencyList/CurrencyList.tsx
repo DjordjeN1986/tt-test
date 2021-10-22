@@ -21,7 +21,7 @@ const CurrencyList = ({ currency }: Props) => {
           </tr>
         </thead>
         {currency.map((c: string) => {
-          return <CurrencyItem currency={c} key={c} />;
+          return <CurrencyItem currency={c.toUpperCase()} key={c} />;
         })}
       </table>
     </div>
